@@ -8,7 +8,7 @@ const routes = require("./routes");
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://healthy2-day.vercel.app',
   credentials: true
 }));
 
